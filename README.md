@@ -12,6 +12,11 @@ Raspberry Pi SPI ADC binding for Python
 *  Remove spi from the blacklist file at /etc/modprobe.d/raspi-blacklist.conf
 *  Reboot, If it worked you'll see spidev0.0 and spidev0.1 in /dev/
 
+## Installation
+```sh
+python setup.py install
+```
+
 ## Example Usage
 ```python
 from RPiBJ import SPIADC as spi
