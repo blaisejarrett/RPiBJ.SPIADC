@@ -7,7 +7,7 @@ Raspberry Pi SPI ADC binding for Python
 *  Uses [Microchip's MCP3008](http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010530)
 *  The SPI module must be enabled on your Raspberry Pi's kernel
 
-## Enabling SPI on Raspbian
+## Enabling SPI in Raspbian
 *  Remove spi from the blacklist file at /etc/modprobe.d/raspi-blacklist.conf
 *  Reboot, If it worked you'll see spidev0.0 and spidev0.1 in /dev/
 
