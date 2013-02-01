@@ -13,10 +13,10 @@ The SPI module must be enabled on your Raspberry Pi's kernel
 *  Reboot, If it worked you'll see spidev0.0 and spidev0.1 in /dev/
 
 ## Example Usage
-'''python
+```python
 from RPiBJ import SPIADC as spi
 \# setup ADC on SPI channel 0 (Chip Enable 0) with speed 100,000hz
 spi.setup(0, 100000)
 \# read channel 0-7
 spi.read(0)
-'''
+```
